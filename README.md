@@ -19,3 +19,14 @@ ___
 ```
 <h1>Это заголовок</h1>
 ```
+## Базовые HTML-теги
+Примеры:
+```
+<h2>Заголовок</h2>
+<p>Абзац текста</p>
+<strong>Жирный</strong>
+<em>курсив</em>
+<hr> 
+<a href="https://www.google.com/">Ссылка</a>
+<img src="img/basicTagsLab5_bogdanov_shumila.png" alt"Описание">
+```
