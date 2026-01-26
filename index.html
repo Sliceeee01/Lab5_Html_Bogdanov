@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   </head>
   <body>
@@ -12,10 +12,10 @@
       веб-разметки.
     </p>
     <p>В данной работе создается проект для изучения основ HTML.</p>
-    <img src="https://travanleo.com/wp-content/uploads/2025/10/html_f.webp" alt="">
+    <img src="https://travanleo.com/wp-content/uploads/2025/10/html_f.webp" alt="HTML логотип">
     <hr>
     <h2>Настройка</h2>
-    <p>Вы настраиваете рабочую деректорию , создаете базовые файлы , подключаете <strong>Git и Github</strong>,<br> а также подготавливаете <em>HTML-файлы</em> для последующего изучения структуры веб страницы.</p>
+    <p>Вы настраиваете рабочую директорию, создаете базовые файлы, подключаете <strong>Git и Github</strong>,<br> а также подготавливаете <em>HTML-файлы</em> для последующего изучения структуры веб-страницы.</p>
     
     <h2>Библиотека HTML</h2>
     <a href="https://webref.ru/html">Перейти в библиотеку HTML</a>
@@ -23,7 +23,7 @@
     <p>HTML позволяет <strong>выделять</strong> текст и делать <em>акценты</em>.</p>
     <hr>
     <a href="https://github.com/Sliceeee01">Мой GitHub</a>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-tvx2BFjpYmfiIBLV25XIfVZy4KhCYFLB7w&s" alt="GitHub">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-tvx2BFjpYmfiIBLV25XIfVZy4KhCYFLB7w&s" alt="GitHub логотип">
      <hr>
      <h2>Списки</h2>
      <ol>
@@ -46,31 +46,34 @@
      </ul>
 
      <h2>Мои списки</h2>
-     <ol>Список фильмов
+     <h3>Список фильмов</h3>
+     <ol>
         <li>Волк с уолл стрит</li>
         <li>Гарри потер</li>
         <li>Мстители война бесконечности: Финал</li>
         <li>Основатель</li>
      </ol>
-     <ul>Хобби
+     <h3>Хобби</h3>
+     <ul>
         <li>ПК</li>
         <li>Хоббихорсинг</li>
      </ul>
+     <h3>Технологии</h3>
      <ul>
         <li>
             <ol>
-                <li>HTMl</li>
+                <li>HTML</li>
                 <li>CSS</li>
             </ol>
         </li>
      </ul>
-     <p id="intro">Это обзац с id</p>
+     <p id="intro">Это абзац с id</p>
      <h2 style="color: brown; font-size: 20px;">Подсказка</h2>
      <span title="Это подсказка!">Наведи на меня</span>
      
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhb2CFhB8FIMxvTkVr25gGh1McXEMhBkpgoA&s" width="300" height="250">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhb2CFhB8FIMxvTkVr25gGh1McXEMhBkpgoA&s" alt="Пример изображения" width="300" height="250">
 
-     <p><a href="https://www.google.com/?hl=ru" target="_blank">Открыть в новой вкладке</a>></p>
+     <p><a href="https://www.google.com/?hl=ru" target="_blank">Открыть в новой вкладке</a></p>
 
      <p>
       <input type="number" placeholder="Введите число">
@@ -79,49 +82,50 @@
      </p>
 
      <h2>Примеры атрибутов</h2>
-     <p id="main-text" class="heighlighted" title="Это всплывающая подсказка">Этот абзац содержит id, class и title.</p>
+     <p id="main-text" class="highlighted" title="Это всплывающая подсказка">Этот абзац содержит id, class и title.</p>
      <p> <a href="https://vk.com/" target="_blank" title="откроется в новой вкладке">Кликни меня</a></p>
      <p><img src="https://avatars.mds.yandex.net/i?id=02f1cb2a6076b24d98922b2178a991ece0650998-5869782-images-thumbs&n=13" alt="пример изображения" width="150"></p>
      <button title="Нажми меня">Кнопка</button>
      <p><input type="text" placeholder="Введите ваш город"></p>
 
      <h2>Галерея</h2>
-     <p><img src="https://avatars.mds.yandex.net/i?id=3bf1db181fb401f1fff5c975d28624cc8ddfa15f-10354927-images-thumbs&n=13" alt=""></p>
-     <p><img src="img/basicTagsLab5_bogdanov_shumila.png" alt=""></p>
-     <p><img src="ошибка" alt="#"></p>
+     <p><img src="https://avatars.mds.yandex.net/i?id=3bf1db181fb401f1fff5c975d28624cc8ddfa15f-10354927-images-thumbs&n=13" alt="Галерея изображение 1"></p>
+     <p><img src="img/basicTagsLab5_bogdanov_shumila.png" alt="Скриншот базовых тегов"></p>
+     <p><img src="ошибка" alt="Изображение не найдено"></p>
 
-     <table border="1">
+     <table style="border: 1px solid black; border-collapse: collapse;">
       <tr>
-         <th>Имя</th>
-         <th>Возраст</th>
+         <th style="border: 1px solid black;">Имя</th>
+         <th style="border: 1px solid black;">Возраст</th>
       </tr>
       <tr>
-         <td>Алексей</td>
-         <td>21</td>
+         <td style="border: 1px solid black;">Алексей</td>
+         <td style="border: 1px solid black;">21</td>
       </tr>
       <tr>
-         <td>Мария</td>
-         <td>19</td>
+         <td style="border: 1px solid black;">Мария</td>
+         <td style="border: 1px solid black;">19</td>
       </tr>
      </table>
-     <table  border="2">
+     <table style="border: 2px solid black; border-collapse: collapse; margin-top: 20px;">
       <tr>
-         <th>ФИО</th>
-         <th>Группа</th>
-         <th>Любимый язык программирования</th>
-         <th>Город</th>
+         <th style="border: 2px solid black;">ФИО</th>
+         <th style="border: 2px solid black;">Группа</th>
+         <th style="border: 2px solid black;">Любимый язык/технология</th>
+         <th style="border: 2px solid black;">Город</th>
       </tr>
       <tr>
-         <td>Богданов Иван Антонович</td>
-         <td>ИСП-233</td>
-         <td>HTML</td>
-         <td>Волжский</td>
+         <td style="border: 2px solid black;">Богданов Иван Антонович</td>
+         <td style="border: 2px solid black;">ИСП-233</td>
+         <td style="border: 2px solid black;">HTML</td>
+         <td style="border: 2px solid black;">Волжский</td>
       </tr>
      </table>
 
+     <h2>Элементы форм</h2>
      <input type="text" placeholder="Введите имя">
-     <input type="email" placeholder="Введитн почту">
-     <input type="password" placeholder="Введите пороль">
+     <input type="email" placeholder="Введите почту">
+     <input type="password" placeholder="Введите пароль">
      <input type="number" placeholder="Возраст">
      <input type="date">
      <input type="checkbox"> Я согласен
@@ -139,16 +143,16 @@
      <button type="submit">Отправить</button>
      <button type="reset">Очистить</button>
 
-     <label for="username">Ваше имя:</label>
-     <input id="username" type="text">
+     <label for="username2">Ваше имя:</label>
+     <input id="username2" type="text">
 
      <h2>Пример HTML-формы</h2>
 <form>
-    <label for="username">Имя:</label>
-    <input id="username" type="text" placeholder="Введите имя">
+    <label for="username3">Имя:</label>
+    <input id="username3" type="text" placeholder="Введите имя">
     <br><br>
-    <label for="email">Email:</label>
-    <input id="email" type="email" placeholder="example@mail.com">
+    <label for="email2">Email:</label>
+    <input id="email2" type="email" placeholder="example@mail.com">
     <br><br>
     <label for="city">Город:</label>
     <select id="city">
